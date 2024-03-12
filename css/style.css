@@ -220,12 +220,12 @@ body {
     bottom: 10%; }
     .header__masking--allColor {
       position: absolute;
-      background-image: url("assets/back.png");
+      background-image: url("../assets/back.png");
       width: 100%;
       background-size: cover;
       min-height: 99%;
-      -webkit-mask-image: url("assets/mask2.png");
-      mask-image: url("assets/mask2.png");
+      -webkit-mask-image: url("https://s0.2mdn.net/creatives/assets/5143831/mask2.png");
+      mask-image: url("https://s0.2mdn.net/creatives/assets/5143831/mask2.png");
       mask-size: cover;
       -webkit-mask-size: cover;
       mask-position: 100% 0%;
@@ -240,7 +240,7 @@ body {
     width: 258px;
     height: 258px;
     top: 38%;
-    transition: 0.82s linear; }
+    transition: 0.8s linear; }
   .header__planetMask {
     position: absolute;
     left: 0;
@@ -260,7 +260,7 @@ body {
     width: 192px;
     height: 192px;
     top: 73%;
-    transition: 0.82s linear; }
+    transition: 0.8s linear; }
   .header__reflect {
     position: absolute;
     top: 89%;
